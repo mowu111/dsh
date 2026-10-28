@@ -2,6 +2,9 @@
 .tools/
 tmp/
 
+# 本地安装的技能（可从来源重新克隆，清单见 docs/persona-skills.md）
+.dsh/skills/
+
 # 截图与临时产物
 *.png
 *.jpg
