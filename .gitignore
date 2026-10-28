@@ -1,0 +1,14 @@
+# 本地工具目录（adb、临时文件等，不进仓库）
+.tools/
+tmp/
+
+# 截图与临时产物
+*.png
+*.jpg
+*.zip
+*.apk
+
+# 系统垃圾
+Thumbs.db
+desktop.ini
+.DS_Store
