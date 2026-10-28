@@ -32,3 +32,17 @@
 - `git` 是便携版，在 `D:\软件\Git`（用户 PATH 里已加 `D:\软件\Git\cmd`）。
 - 下载 GitHub 产物：`releases` 走清华镜像 `mirrors.tuna.tsinghua.edu.cn/github-release/` 更快（57MB 用了 3.7 秒）；`api.github.com` 可达。
 - Windows PowerShell 是 5.1：中文脚本必须存成 UTF-8 **with BOM**，否则乱码。
+
+## Agent skills
+
+### Issue tracker
+
+Issues live in GitHub Issues on `mowu111/dsh`, operated with the `gh` CLI. See `docs/agents/issue-tracker.md`.
+
+### Triage labels
+
+Five canonical triage roles, default vocabulary (each label string equals its role name). See `docs/agents/triage-labels.md`.
+
+### Domain docs
+
+single-context — one `GLOSSARY.md` at the repo root, ADRs under `docs/adr/`. See `docs/agents/domain.md`.
